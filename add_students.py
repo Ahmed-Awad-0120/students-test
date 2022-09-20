@@ -15,3 +15,7 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 
+#addition SQL query
+sql = "INSERT INTO `students` (name, email, address) VALUES (%s, %s, %s)"
+
+
