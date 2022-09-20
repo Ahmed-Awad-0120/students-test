@@ -18,4 +18,12 @@ mycursor = mydb.cursor()
 #addition SQL query
 sql = "INSERT INTO `students` (name, email, address) VALUES (%s, %s, %s)"
 
+#students data
+val = [
+  ('Ahmed', 'ahmed@uofk.edu', 'Sudan/Khartoum'),
+  ('Ali', 'ali@uofk.edu', 'Sudan/Khartoum'),
+  ('Khalid', 'khalid@uofk.edu', 'Sudan/Khartoum'),
+  ('Fillan', 'fillan@uofk.edu', 'Sudan/Khartoum'),
+  ('Illan', 'illan@uofk.edu', 'Sudan/Khartoum')
+]
 
