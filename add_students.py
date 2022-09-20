@@ -11,4 +11,7 @@ mydb = mysql.connector.connect(
 )
 
 
+#connection cursor for transactions
+mycursor = mydb.cursor()
+
 
