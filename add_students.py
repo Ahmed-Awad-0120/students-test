@@ -27,3 +27,13 @@ val = [
   ('Illan', 'illan@uofk.edu', 'Sudan/Khartoum')
 ]
 
+#execute sql query with many values
+mycursor.executemany(sql, val)
+
+
+#commit transactions
+mydb.commit()
+
+
+
+print(mycursor.rowcount, " rows was inserted.") 
